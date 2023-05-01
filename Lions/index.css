@@ -5,13 +5,10 @@ body{
 }
 
 .myVideo{
-    z-index: -1;
-    position: fixed;
-    top:0;
-    left:0;
-    height: 100%;
+    z-index: -1; /* drops back video visibility box */
+    position: fixed; /* removes video spacebox */
     width: 100%;
-    object-fit:cover;
+    object-fit:cover; /* make video cover screen */
 }
 
 .MainContainer{
