@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    margin:0;
+}
+
+.HeroBar{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 9vh;
+    background-color: rgba(250, 246, 1, 0.637);
+}
+
+.HeroLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width:20%;
+}
+
+.HeroLogoFont{
+    font-family: "Lexend", sans-serif;
+    color: rgba(0, 0, 0, 0.89)
+}
+
+.SearchBar{
+    width: 50%;
+    height: 100%;
+    margin-left:6%;
+}
+
+.SearchBarForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#SearchBarInput{
+    border: none;
+    box-shadow: 0px 0px 6px;
+    border-radius: 20px;
+    width: 50%;
+    height: 40%;
+    font-family: "Lexend";
+    padding-left: 5%;
+}
+
+.VideoDisplay{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 9vh;
+    width: 100vw;
+    height: 91vh;
+}
+
+.VideoWatch{
+    margin-top: 50px;
+    width: 750px;
+    height: 450px
+}
+
+.VideoTitle{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: "Lexend";
+}
